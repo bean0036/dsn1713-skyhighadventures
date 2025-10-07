@@ -1,0 +1,16 @@
+    #taskbar {
+        background-color: #FFB200;
+    }
+
+    #button {
+        font-weight: bold;
+        margin: 2rem;
+    }
+
+    #mainnavbar {
+        margin-top: 30px;
+    }
+
+    .nav-item {
+        text-transform: capitalize;
+    }
