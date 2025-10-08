@@ -1,15 +1,16 @@
+    :root {
+        --primary-color:#FFB200;
+        --primary-color-rgb:255, 178, 0;
+    } 
+    
     #taskbar {
-        background-color: #FFB200;
+        background-color: var(--primary-color);
     }
 
-    #button {
-        font-weight: bold;
-        margin: 2rem;
+    .nav-link:hover {
+        color: #FFB200;
     }
 
-    #navbarNAV {
-        margin-top: 30px;
-    }
 
     .nav-link {
         font-size: larger;
@@ -21,13 +22,35 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    margin-top: 10rem;
 }
 
 .navbar-custom {
-        height: 100px; /* Adjust as needed */
+     height: 100px;
     }
 
-.btn {
+#hero .btn {
     margin-top: 5rem;
     margin-bottom: 30rem;
+    background-color: var(--primary-color);
+    color: black;
+    border: none;
+}
+
+#hero .btn:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#navbarNAV .btn {
+    font-weight: bold;  
+    border: none; 
+}
+
+
+#navbarNAV .btn:hover {
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: bold;
 }
