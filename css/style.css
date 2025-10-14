@@ -11,7 +11,6 @@
         color: #FFB200;
     }
 
-
     .nav-link {
         font-size: larger;
     }
@@ -22,7 +21,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    margin-top: 10rem;
+    margin-top: 9rem;
 }
 
 .navbar-custom {
@@ -30,22 +29,28 @@
     }
 
 #hero .btn {
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-bottom: 30rem;
     background-color: var(--primary-color);
     color: black;
     border: none;
+    font-weight: bold; 
+}
+
+.display-1 {
+    margin-top: 11rem;
 }
 
 #hero .btn:hover {
     color: white;
     background-color: black;
     border: none;
+    font-weight: bold;
 }
 
-#navbarNAV .btn {
-    font-weight: bold;  
+#navbarNAV .btn { 
     border: none; 
+    font-weight: bold; 
 }
 
 
